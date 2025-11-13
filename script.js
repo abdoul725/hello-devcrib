@@ -1,3 +1,1 @@
-window.addEventListener('load', () => {
-  document.body.classList.add('loaded');
-});
+console.log("Welcome to DevCrib Phase 1!");

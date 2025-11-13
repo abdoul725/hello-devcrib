@@ -3,44 +3,60 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello DevCrib | Abdoul</title>
+  <title>Hello DevCrib - Abdoul Portfolio</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="header">
-    <h1 class="fade-in">👋 Hello, I'm Abdoul</h1>
-    <p class="fade-in delay">Welcome to my Hello DevCrib Landing Page</p>
-  </header>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <h1 class="logo">DevCrib</h1>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-  <section class="about fade-in delay2">
-    <img src="my photo.png" alt="My Photo" class="profile-pic" />
-    <h2>About Me</h2>
-    <p>I'm a passionate Information Technology student who loves building websites, exploring AI, and learning robotics.</p>
-    <p>My hobbies include coding, music, and exploring new tech ideas.</p>
+  <!-- HERO SECTION -->
+  <section id="hero" class="hero">
+    <div class="hero-left">
+      <img src="my photo.png" alt="Abdoul photo" class="hero-img" />
+    </div>
+    <div class="hero-right">
+      <h2>👋🏽 Hi, I'm <span>Abdoul</span></h2>
+      <p>
+        I’m deeply grateful to be part of this amazing DevCrib journey.  
+        Being surrounded by passionate creators inspires me to learn, grow,  
+        and build solutions that make people’s lives easier. Thank you for welcoming me!
+      </p>
+      <a href="#skills" class="btn">See My Skills</a>
+    </div>
   </section>
-    <section id="skills" class="skills">
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="skills">
     <h2>My Skills</h2>
-    <div class="skills-list">
-      <div class="skill-card">💻 HTML</div>
-      <div class="skill-card">🎨 CSS</div>
-      <div class="skill-card">⚙️ JavaScript</div>
-      
+    <div class="skills-container">
+      <div class="skill-card">HTML</div>
+      <div class="skill-card">CSS</div>
+      <div class="skill-card">JavaScript</div>
     </div>
   </section>
-    <section id="contact" class="contact">
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact">
     <h2>Contact Me</h2>
-    <p>If you’d like to connect or collaborate, feel free to reach out!</p>
+    <p>Feel free to reach out to collaborate or just say hi 👋🏽</p>
     <div class="contact-links">
-      <a href="mailto:ahmedshehuyayu@gmail.com" class="btn">📧 Email Me</a>
+      <a href="mailto:abdoul@example.com" class="btn">📧 Email</a>
       <a href="https://github.com/abdoul725" target="_blank" class="btn">🐙 GitHub</a>
-      <a href="https://linkedin.com" target="_blank" class="btn">💼 LinkedIn</a>
+      <a href="https://wa.me/2349012345678" target="_blank" class="btn">💬 WhatsApp</a>
     </div>
   </section>
 
-  <footer class="fade-in delay3">
-    <p>© 2025 Abdoul | Built for the DevCrib Challenge 🚀</p>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 Hello DevCrib | Designed with ❤️ by Abdoul</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
