@@ -3,24 +3,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello DevCrib | Abdoul</title>
+  <title>Hello DevCrib - Abdoul</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="header">
-    <h1 class="fade-in">👋 Hello, I'm Abdoul</h1>
-    <p class="fade-in delay">Welcome to my Hello DevCrib Landing Page</p>
+  <header class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1 class="animate-text">👋🏽 Hello, I'm <span>Abdoul</span></h1>
+      <p class="animate-subtext">An aspiring developer who loves tech, AI & robotics 🤖</p>
+      <a href="#about" class="btn">Explore More</a>
+    </div>
   </header>
 
-  <section class="about fade-in delay2">
-    <img src="me.jpg" alt="My Photo" class="profile-pic" />
+  <section id="about" class="about">
     <h2>About Me</h2>
-    <p>I'm a passionate Information Technology student who loves building websites, exploring AI, and learning robotics.</p>
-    <p>My hobbies include coding, music, and exploring new tech ideas.</p>
+    <div class="about-content">
+      <img src="my photo.png" alt="Abdoul" class="profile-pic" />
+      <div>
+        <p>Hi! I'm Abdoul, a passionate IT student who loves building websites and learning new technologies.</p>
+        <p>My hobbies include coding, robotics, exploring AI projects, and gaming 🎮.</p>
+      </div>
+    </div>
   </section>
 
-  <footer class="fade-in delay3">
-    <p>© 2025 Abdoul | Built for the DevCrib Challenge 🚀</p>
+  <footer>
+    <p>© 2025 Hello DevCrib | Built with ❤️ by Abdoul</p>
   </footer>
 
   <script src="script.js"></script>
